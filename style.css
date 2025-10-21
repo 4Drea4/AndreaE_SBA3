@@ -1,0 +1,17 @@
+
+
+
+
+@media screen and(max-width:600px){
+  body{
+    background-image: url('images/bg-mobile.png')
+
+  } 
+}
+@media screen and (max-width:601px){
+    body{
+        background-image: url('images/bg-desktop.png')
+ 
+    }
+ }
+ 
