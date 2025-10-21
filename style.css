@@ -1,17 +1,31 @@
+body{
+    background-color: Blue 850: hsl(228, 56%, 26%);
+    z-index: 1;
 
-
-
-
-@media screen and(max-width:600px){
-  body{
-    background-image: url('images/bg-mobile.png')
-
-  } 
 }
-@media screen and (max-width:601px){
+
+    .first-container{
+
+}
+
+    #background{
+
+}
+    .main-card{
+        background-color: Blue 850: hsl(228, 56%, 26%);
+        
+    }
+
+    @media screen and (max-width:600px){
+  body{
+    background-image: url('images/bg-mobile.png');
+    z-index: -3;
+    } 
+    }
+    @media screen and (min-width:601px){
     body{
-        background-image: url('images/bg-desktop.png')
- 
+        background-image: url('images/bg-desktop.png');
+        z-index:-3
     }
  }
  
