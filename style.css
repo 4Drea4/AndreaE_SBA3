@@ -8,6 +8,9 @@
     #card-container{    
         width: 18rem;
     }
+    span{
+        color: hsl(229, 7%, 55%);
+    }
    
     .card{
         
@@ -30,6 +33,7 @@
   
 
   #progress-bar{
+    Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
 
   }
   
