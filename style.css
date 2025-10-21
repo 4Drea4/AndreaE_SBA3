@@ -8,17 +8,18 @@
     .first-container{
 
     }
-    .col{
-        background-color:  hsl(228, 56%, 26%);
-    }
+   
     .card{
         border-radius: 10px;
         background-color:  hsl(229, 57%, 11%);
+        padding-top: 20px;
     }
-
-    #icons{
-    background-color:rgb(207, 207, 248): hsl(229, 7%, 55%);
-  }
+    .icon-bg{
+        border-radius: 10px;
+        background-color:  hsl(228, 56%, 26%)
+    
+    }
+ 
     
     #storagebar{
         background-color:  hsl(228, 56%, 26%);
