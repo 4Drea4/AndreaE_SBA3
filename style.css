@@ -24,18 +24,18 @@
  
 
     #storagebar{
-        background-color:  hsl(228, 56%, 26%);
+        background-color:  hsl(229, 57%, 11%);
     }
 
-    #large-grid{
-            background-color: hsl(229, 57%, 11%);
-  }
-
-  #progress-bar{
-    
-  }
   
 
+  #progress-bar{
+
+  }
+  
+.progress{
+    width: 81.5%;
+}
 
 
 
