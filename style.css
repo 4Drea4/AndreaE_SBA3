@@ -38,7 +38,18 @@
         background-color: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
     }
 
-
+    .pop-up{
+        right: 1rem; top: -1rem;
+        background: #fff; color: #111;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .arrow{
+        width: 0; height: 0;
+        border-left: 12px solid transparent;
+        border-right: 0 solid transparent;
+        border-top: 12px solid #fff;
+      }
 
 
     @media screen and (max-width:600px){
