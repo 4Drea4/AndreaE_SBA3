@@ -8,10 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo data storage component - bootstrap</title>
-
+</head>
   <body class="d-flex justify-content-center align-item-center "> <!--This is for the background of the entire body-->
 
-       <div class="container- py-5" id="background"> </div> <!-- This is for the grid for the two items where I have one card taking up one space and the next will be longer-->
+       <div class="container py-5" id="background"> </div> <!-- This is for the grid for the two items where I have one card taking up one space and the next will be longer-->
 
        <div class="d-flex justify-content-center align-item-center" id="large-grid ">
         <div class="row g-4 align-items-end ">
@@ -19,7 +19,7 @@
 
 
            <div class="" id="first-container">
-            <div class="card p-4 m-4">
+            <div class="card p-4 g-4">
 
               <div class="card-body">
                <a><img src="images/logo.svg" alt="logo"></a> 
@@ -29,19 +29,19 @@
 
                   <div class="col" id="icons">
                     <div class="icon-bg">
-                    <img class="justify-content-center align-item-center d-flex p-3 img-fluid rounded-3" src="images/icon-document.svg" alt="document icon" aria-label="document icon">
+                    <img class="justify-content-center align-items-center d-flex p-3 img-fluid rounded-3" src="images/icon-document.svg" alt="document icon" aria-label="document icon">
                   </div>
                 </div>
 
                   <div class="col" id="icons">
                     <div class="icon-bg">
-                    <img class="justify-content-center align-item-center d-flex p-3 img-fluid rounded-3" src="images/icon-folder.svg" alt="folder icon" aira-label="folder icon">
+                    <img class="justify-content-center align-items-center d-flex p-3 img-fluid rounded-3" src="images/icon-folder.svg" alt="folder icon" aira-label="folder icon">
                   </div>
                 </div>
 
                   <div class="col" id="icons">
                     <div class="icon-bg">
-                    <img class="justify-content-center align-item-center d-flex p-3 img-fluid rounded-3" src="images/icon-upload.svg" alt="upload icon" aria-label="upload icon">
+                    <img class="justify-content-center align-items-center d-flex p-3 img-fluid rounded-3" src="images/icon-upload.svg" alt="upload icon" aria-label="upload icon">
                   </div>
                 </div>
                 </div>
@@ -53,12 +53,12 @@
            </div>
           </div>
 
-          <div class=" col-12 col-md-6 p-4 text-center" id="storgagebar"> <!--For the progress bar-->
+          <div class=" col-12 col-lg-8 p-4 text-center" id="storgagebar"> <!--For the progress bar-->
           <div class="card p-4 text-start" id="progress-bar">
            <p class="justify-content-center">You’ve used 815 GB of your storage</p> 
             </div>
 
-            <div class="progress mb-3" id="progress-bar">
+            <div class="progress mb-3" id="progress-bars">
                 <progress max="1000" value="815" aria-label="progress bar" id="progress-bar"></progress>
 
               <div class="d-flex justify-content-between text-white-50 small">
