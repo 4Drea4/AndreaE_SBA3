@@ -3,12 +3,10 @@
         font-size: 2rem;
         font-family:"Raleway", sans-serif;
     }
-    .first-container{
 
-    }
+
     #card-container{    
         width: 18rem;
-
     }
    
     .card{
@@ -24,7 +22,7 @@
 
     }
  
-    
+
     #storagebar{
         background-color:  hsl(228, 56%, 26%);
     }
@@ -34,10 +32,12 @@
   }
 
   #progress-bar{
-    background-color: ;
-    color: white;
+    
   }
   
+
+
+
 
 
 
