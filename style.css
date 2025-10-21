@@ -1,26 +1,31 @@
 
     body{
-        background-color: Blue 850: hsl(228, 56%, 26%);
+        background-color: hsl(229, 57%, 11%);
         font-size: 2rem;
-        font-family:"raleway";
+        font-family:"Raleway", sans-serif;
     }
 
     .first-container{
 
-}
+    }
+    .col{
+        background-color:  hsl(228, 56%, 26%);
+    }
+    .card{
+        border-radius: 10px;
+        background-color:  hsl(229, 57%, 11%);
+    }
 
     #icons{
     background-color:rgb(207, 207, 248): hsl(229, 7%, 55%);
   }
-    .main-card{
-        background-color: Blue 850: hsl(228, 56%, 26%);
-    }
+    
     #storagebar{
-        background-color: Blue 850: hsl(228, 56%, 26%);
+        background-color:  hsl(228, 56%, 26%);
     }
 
     #large-grid{
-            background-color: Blue: hsl(229, 57%, 11%);
+            background-color: hsl(229, 57%, 11%);
   }
 
   #progress-bar{
