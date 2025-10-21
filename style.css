@@ -1,11 +1,13 @@
-
     body{
         background-color: hsl(229, 57%, 11%);
         font-size: 2rem;
         font-family:"Raleway", sans-serif;
     }
-
     .first-container{
+
+    }
+    #card-container{    
+        width: 18rem;
 
     }
    
