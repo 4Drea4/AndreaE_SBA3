@@ -4,10 +4,10 @@
         font-family:"Raleway", sans-serif;
     }
 
-
     #card-container{    
         width: 18rem;
     }
+
     span{
         color: hsl(229, 7%, 55%);
     }
@@ -19,28 +19,24 @@
         /*width: 18rem; */
         border-top-right-radius: 10px
     }
+
     .icon-background{
         border-radius: 10px;
         background-color:  hsl(228, 56%, 26%)
-
     }
- 
 
     #storagebar{
         background-color:  hsl(229, 57%, 11%);
     }
 
-  
-
-  #progress-bar{
-    Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
-
-  }
-  
-.progress{
+    .progress{
     width: 81.5%;
-}
+    height: 14px;
+    }
 
+    .progress-bar{
+        background-color: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    }
 
 
 
@@ -48,13 +44,19 @@
     @media screen and (max-width:600px){
   body{
     background-image: url('images/bg-mobile.png');
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+
     } 
     }
+
     @media screen and (min-width:601px){
     body{
         background-image: url('images/bg-desktop.png');
-       
+       background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
     }
  }
  
