@@ -10,14 +10,16 @@
     }
    
     .card{
-        border-radius: 10px;
+        
         background-color:  hsl(229, 57%, 11%);
         padding-top: 20px;
+        width: 18rem; 
+        border-top-right-radius: 10px
     }
     .icon-bg{
         border-radius: 10px;
         background-color:  hsl(228, 56%, 26%)
-    
+
     }
  
     
