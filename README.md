@@ -10,6 +10,8 @@ Figma: Unfortunately I could not get this FIGMA file without purchasing pro.
 
 [Frontend Mentor Link to the project](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n?tab=downloads) 
 
+## Method
+If I would have done it differently, I would have created the grid with the necessary utilities and then put the content in the "structure" first instead of building all at once. After I created the structure and filled in the content, I would have gone in and done any styling that I couldnt capture with Bootstrap. I think I would have had a much easier time. 
 
 ## Reflection
 
