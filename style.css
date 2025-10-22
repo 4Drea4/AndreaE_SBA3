@@ -18,7 +18,10 @@
         background-color:  hsl(228, 56%, 26%);
         padding-top: 20px;
         /*width: 18rem; */
-        border-top-right-radius: 50px
+        border-top-right-radius: 50px;
+        border-width:0px;
+        border-color:  hsl(228, 56%, 26%);
+
        
     }
 
@@ -67,13 +70,20 @@
         border-top: 12px solid #fff;
       }
 
+      #storagebar{
+        position: relative;
+      }
 
+      .text {
+        text-decoration: none;
+      }
     @media screen and (max-width:600px){
   body{
-    background-image: url('images/bg-mobile.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
+        background-image: url('images/bg-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        gap:4px;
 
     } 
     }
@@ -81,9 +91,9 @@
     @media screen and (min-width:601px){
     body{
         background-image: url('images/bg-desktop.png');
-       background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center bottom;
     }
  }
  
