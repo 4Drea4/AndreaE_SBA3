@@ -12,9 +12,9 @@ Figma: Unfortunately I could not get this FIGMA file without purchasing pro.
 
 The process was trying but I learned a lot!
 
-![When I was ready to give up](images/Screenshot 2025-10-21 at 2.23.17 PM.png)
+![When I was ready to give up](images/when-ready-to-give-up.png)
+![My finished project](images/finished-project.png)
 
-![My finished project](images/Screenshot 2025-10-22 at 10.07.23 AM.png)
 
 ## Method
 If I would have done it differently, I would have created the grid with the necessary utilities and then put the content in the "structure" first instead of building all at once. After I created the structure and filled in the content, I would have gone in and done any styling that I couldnt capture with Bootstrap. I think I would have had a much easier time. 
