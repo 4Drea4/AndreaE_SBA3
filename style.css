@@ -2,7 +2,6 @@
         background-color: hsl(229, 57%, 11%);
         font-size: 14px;
         font-family:"Raleway", sans-serif;
-    
     }
 
     #card-container{    
@@ -21,6 +20,8 @@
         border-top-right-radius: 50px;
         border-width:0px;
         border-color:  hsl(228, 56%, 26%);
+       
+        
 
        
     }
@@ -52,6 +53,11 @@
         transform: translateY(-50%);
         width: 10px; height: 10px;
         background: #fff; border-radius: 50%;
+    }
+
+    #progressbar{
+        border-radius: 10px;
+        width: 100%;
     }
 
     }
@@ -90,9 +96,11 @@
         background-position: center bottom;
         gap:4px;}
         
-        .pop-up{display: hidden};
-        .arrow{display: hidden};
-           
+        .pop-up{display: none};
+        .arrow{display: none};
+        .card{margin-bottom: 1rem};
+      .card{ height: 2.5rem
+      }  ;
 
     } 
     
