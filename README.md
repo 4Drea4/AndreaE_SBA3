@@ -12,7 +12,7 @@ Figma: Unfortunately I could not get this FIGMA file without purchasing pro.
 
 The process was trying but I learned a lot!
 
-![When I was ready to give up](images/when-ready-to-give-up.png)
+![When I was ready to give up](images/give-up.png)
 ![My finished project](images/finished-project.png)
 
 
